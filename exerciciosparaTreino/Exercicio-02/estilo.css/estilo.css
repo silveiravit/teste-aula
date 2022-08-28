@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+/* Formatação da Interface */
+
+body {
+    background-color: rgb(196, 196, 196);
+}
+
+h1 {
+    font-size: 12pt;
+}
+
+h2 {
+    color: rgb(58, 87, 141);
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    font-size: 20pt;
+}
+
+h3 {
+    font: 5pt;
+}
+
+p {
+    text-align: justify;
+    font-size: 12pt;
+    font-family: Arial, sans-serif;
+}
+
+div#interface {
+    width: 600px;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    padding: 10px 20px 10px 20px;
+    margin: 190px auto 10px 100px;
+}
+
+article#artigo-principal {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Formatação do Menu */
+header#cabecalho {
+    position: absolute;
+    left: 30px;
+    top: 120px;
+    margin: 0px 10px 0xp 10px;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 10pt;
+    padding: 0px 26px 0px 10px;
+    font-family: Arial Black, sans-serif;
+}
+
+nav#menu ul {
+    border: 1px solid black;
+    background-color: rgb(28, 19, 83);
+    padding: 10px;
+    margin-left: -30px;
+}
+
+nav#menu a {
+    color: white; 
+    text-decoration: none;
+    
+}
+
+nav#menu a:hover {
+    border-radius: 5px;
+    padding: 9px 2px 9px 2px;
+    color: white;
+    background-color: rgb(93, 99, 116);
+}
+
+/* Formatação da página */
+
+
+section#noticia {
+    display: block;
+    width: 600px;
+    float: left;
+    padding-right: 20px;
+}
+
+section#noticia a {
+    text-decoration: none;
+    color: rgb(1, 1, 107);
+}
+
+section#noticia a:hover {
+    text-decoration: underline;
+}
+
+aside#lateral {
+    position: absolute;
+    display: block;
+    width: 350px;
+    float: right;
+    padding: 5px 5px 200px 5px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    left: 800px;
+    top: 181px;
+}
+
+aside#lateral a {
+    text-decoration: none;
+    font-size: 14pt;
+    color: black;
+}
+
+aside#lateral h2 {
+    font-size: 14pt;
+    text-align: left;
+}
+
+aside#lateral a:hover {
+    text-decoration: underline;
+    color: rgb(50, 50, 255);
+}
+
+aside#lateral h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+aside#lateral li {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+footer#rodape {
+    clear: both;
+    margin-top: 90px;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+/* Formatação da Tabela */
+
+table#tabela {
+    border-spacing: 0px;
+    margin-left: 80px;
+    width: 70%;   
+}
+
+table#tabela td {
+    border: 1px solid black;
+    padding: 10px 0px 10px 0px;
+}
+
+
+table#tabela tr {
+    background-color: rgb(189, 189, 189);
+}
+
+table#tabela td.ce {
+    vertical-align: top;
+    background-color: rgb(99, 159, 250);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+table#tabela td.cd {
+    background-color: rgb(201, 201, 201);
+    color: black;
+    padding-left: 50px;
+    text-align: center;
+}
+
+table#tabela caption {
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid black;
+    background-color: rgb(221, 221, 221);
+}
+
+/* Formatação de Imagens */
+
+header#cabecalho img {
+    display: none;
+    margin-top: 60px;
+    position: absolute;
+    left: -28px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+div#interface img.imagem {
+    position: absolute;
+    top: 20px;
+}
+
+/* Formatação da Barra de pesquisa */
+
+input#cBusca {
+    left: 100px;
+    top: 30px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.Css/estilo.css">
+    <title>Cérebro</title>
+</head>
+<body>
+    <div id="interface">
+            <header id="cabecalho">
+                <h1><abbr title="Ramo da medicina que estuda a forma e a estrutura dos diferentes elementos constituintes do corpo humano.">Anatomia</abbr> e <abbr title="Estudo das funções e do funcionamento normal dos seres vivos, esp. dos processos físico-químicos que ocorrem nas células, tecidos, órgãos e sistemas dos seres vivos sadios; biofisiologia.">Fisiologia</abbr></h1>
+                <img src="imagens/simbolo-med-150px.png" alt="" class="simbolo">
+                <nav id="menu">
+                    <h3 class="oculto">Menu Principal</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="partes.html" target="_blank">Partes do Cérebro</a></li>
+                        <li><a href="imagens.html" target="_blank">Imagens</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=_0juQEk4sKg&t=3s" target="_blank">Videos</a></li>
+                        <li><a href="Downloads/Anatomia do sistema nervoso central_parte 1.pdf" target="_blank">Downloads</a></li>
+                        <li><a href="cadastro.html" target="_blank">Cadastre-se</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section id="corpo">
+                <article id="noticia-principal">
+                    <h1>Página de cadastro</h1>
+                    <form method="GET" action="cadastro01.php">
+                        <fieldset id="formulario"><legend>Cadastro</legend>
+                            <label for="cNome">Nome</label>: <input type="text" name="tNome" id="cNome" size="30" maxlength="60" placeholder="Nome"><br>
+                            <label for="cNasc">Data de nascimento</label>: <input type="date" name="tNasc" id="cNasc" placeholder="Data de nascimento"><br>
+                            <label>E-mail</label>: <input type="email" name="tEmail" id="cEmail" placeholder="E-mail">
+                            <label>Telefone</label>: <input type="tel" name="tTel" id="cTel" maxlength="13" placeholder="Telefone">
+                        </fieldset>
+                        <fieldset id="formulario"><legend>Gênero</legend>
+                            <input type="radio" name="sexo" id="cMasc"><label for="cMasc">Masculino</label><br>
+                            <input type="radio" name="sexo" id="cFem"><label for="cFem">Feminino</label><br>
+                            <input type="radio" name="sexo" id="cNada"><label for="cNada">Prefiro não informar</label>
+                        </fieldset>
+                        <input type="submit" value="Concluir">
+                        <a href="index.html"><button>Voltar</button></a>
+                    </form>    
+                </article>
+            </section>
+            <footer id="rodape">
+                <p>Toda Matéria: conteúdos escolares.
+                    &copy;2021</p>
+            </footer>
+        </div>
+    </body>
+    </html>

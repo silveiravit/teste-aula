@@ -1,0 +1,284 @@
+@charset "UTF-8";
+h1 {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+h2 {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+h3.oculto {
+    display: none;
+}
+
+p {
+    text-align: justify;
+    text-indent: 15px;
+    font-size: 12pt;
+    font-family: arial, sans-serif;
+}
+
+body {
+    background-color: #00002d;
+}
+
+div#interface {
+    width: 550px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    margin: 60px auto 10px 120px;
+    padding: 10px 20px 20px 20px;
+    border: ridge 7px;
+    
+}
+
+header#cabecalho {
+    border-bottom: 1px black solid;
+    height: 110px;
+}
+
+header#cabecalho h1 {
+    position: absolute;
+    top: 80px;
+    text-align: left;
+    font-size: 20pt;
+    font-family: Verdana;
+    color: rgb(184, 55, 55);
+    text-shadow: 2px 2px 1px black;
+    text-decoration: none;
+}
+
+header#cabecalho h1 abbr {
+    text-decoration: none;
+}
+
+article#noticia-principal h1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px 0px 5px 0px;
+    font-family: arial;
+}
+
+article#noticia-principal h2 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px 0px 5px 0px;
+    font-size: 15pt;
+    font-family: arial;
+}
+
+article#noticia-principal h3 {
+    font-family: Arial, sans-serif;
+    color: rgb(72, 59, 160);
+}
+
+/*Formatação do menu */
+
+nav#menu {
+    display: block;
+    position: absolute;
+    top: -19px;
+    left: 0px;   
+}
+
+nav#menu ul {
+    background-color: #b6c9fd;
+    border-radius: 2px;
+    border: 5px solid;
+}
+
+nav#menu li {
+    display: inline-block;
+    padding-inline: 44px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: Arial Black, sans-serif;
+    font-size: 14pt;
+}
+
+nav#menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    background-color: #a1a1a1;
+    color: #00002d;
+    
+}
+
+/* Formatação de imagens*/
+header#cabecalho img.simbolo {
+    left: 550px;
+    position: absolute;
+    height: 100px;
+    
+}
+
+figure.foto-cerebro {
+    padding: 10px;
+    background-color: rgba(173, 172, 172, 0.5);
+    box-shadow: 5px 5px 5px black;
+    position: relative;
+}
+
+figure.foto-cerebro img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.lobos-cerebrais {
+    position: relative;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    background-color: rgb(59, 82, 146);
+}
+
+figure.lobos-cerebrais img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.tomografia {
+    box-shadow: 8px 8px 8px black;
+    padding: 10px;
+    background-color: rgba(173, 172, 172, 0.5);
+}
+
+figure.tomografia img{
+    width: 100%;
+    height: 100%;
+}
+
+figure.hemisferios-cerebrais {
+    position: relative;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    background-color: rgb(160, 160, 160);
+}
+
+figure.hemisferios-cerebrais img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.funcoes {
+    position: relative;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    background-color: rgb(119, 119, 119);
+}
+
+figure.funcoes img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.funcoes:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+/* Formatação da página*/
+
+section#corpo {
+    display: block;
+    width: 550px;
+    float: left;
+}
+
+aside#lateral {
+    position: absolute;
+    display: block;
+    width: 550px;
+    float: right;
+    left: 760px;
+    top: 50px;
+    margin: 0px auto 20px auto;
+}
+
+article#artigo-lateral {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px 80px 10px;
+    margin: 10px 2px 0px 2px;
+    box-shadow: 5px 5px 5px black;
+    font-family: arial;
+}
+
+article#artigo-lateral h2 {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-size: 15pt;
+    padding: 5px;
+}
+
+footer#rodape {
+    clear: both;
+    padding-top: 10px;
+    border-top: 1px solid black;
+}
+
+footer#rodape p {
+    text-align: center;
+}
+
+/* Formatação da tabela */
+
+table#tabela {
+    border: 1px solid black;
+    border-spacing: 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0,0.5);
+}
+
+table#tabela td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table#tabela tr {
+    background-color: rgba(104, 112, 231,.3);
+}
+
+table#tabela caption {
+    text-align: center;
+    font-size: 13pt;
+    text-transform: uppercase;
+}
+
+table#tabela td.ce {
+    color: black;
+    background-color: cornflowerblue;
+    vertical-align: top;
+}
+
+table#tabela td.cd {
+    color: black;
+    background-color: rgb(189, 189, 189);
+}
+
+table#tabela caption {
+    font-weight: bolder;
+    font-size: 15pt;
+    border: 2px solid black;
+    text-align: center;
+}
+
+table#tabela caption span {
+    display: block;
+    float: right;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+/* Formatação do Formulário */
+
+fieldset#formulario {
+    margin-bottom: 10px;
+}
+
+fieldset#formulario input {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+section#conteudo {
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    top: 55px;
+    left: 750px;
+    
+}
+
+img {
+    width: 100%;
+}
+
+
+
+iframe#partes {
+    width: 450px;
+    height: 320px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    overflow: hidden;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

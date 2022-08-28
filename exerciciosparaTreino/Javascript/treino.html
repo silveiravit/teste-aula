@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino de Javascript</title>
+    <script>
+        alert ("Boa noite! Clique em OK");
+        document.write("Acenda a lâmpada, hoje é: " + Date())
+    </script>   
+    <br>
+    <script>
+        var quebrada = false;
+        function lampada(tipo) {
+            if (tipo == 1){
+                arquivo = "../imagens/lampada-acesa.jpg";
+            }
+            if (tipo == 2){
+                arquivo = "../imagens/lampada-apagada.jpg";
+            }
+            if (tipo == 3){
+                arquivo = "../imagens/lampada-quebrada.jpg";
+            }
+            if (!quebrada){
+                document.getElementById("luz").src = arquivo;
+                if (tipo == 3){
+                    quebrada = true;
+                }
+            }    
+        }
+    </script>
+    
+</head>
+<body>
+    <img src="../imagens/lampada-apagada.jpg" id="luz" onmousemove="lampada(1)" onmouseout="lampada(2)" onclick="lampada(3)">
+</body>
+</html>
